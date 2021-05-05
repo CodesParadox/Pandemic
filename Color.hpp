@@ -5,7 +5,7 @@
 #include <map>
 
 namespace pandemic {
-enum class Color
+enum Color
 {
 	Black,
 	Blue,

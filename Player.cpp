@@ -1,6 +1,6 @@
 
 #include "Player.hpp"
-
+#include <string>
 using namespace std;
 using namespace pandemic;
 
@@ -27,7 +27,9 @@ using namespace pandemic;
     Player& Player::treat(City c){
         return *this;
     }
-    Player& Player::take_card(City c){
-        return *this;
+    Player &Player::take_card(City c)
+    {
+    cards.insert(c);
+    return *this;
     }
     

@@ -1,11 +1,13 @@
 #pragma once
-
+#include "Color.hpp"
 #include <iostream>
-
+#include <string>
+#include <utility>
+#include <vector>
 
 namespace pandemic {
 
-    enum class City {
+    enum City {
             Chicago,
             Miami,
             LosAngeles,

@@ -5,7 +5,7 @@
 #include <set>
 #include "City.hpp"
 #include "Color.hpp"
-
+#include <string>
 namespace pandemic {
 
     class Board {

@@ -1,6 +1,7 @@
 #include "Board.hpp"
 #include <iostream>
 #include <map>
+#include <string>
 using namespace pandemic;
 using namespace std;
 
